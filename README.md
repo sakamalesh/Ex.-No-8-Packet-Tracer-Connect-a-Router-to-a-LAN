@@ -1,5 +1,5 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
-# Date: ___________
+# Date: 26/09/25
 ________________________________________<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
@@ -112,9 +112,17 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/3d5055ac-ea48-42a3-9e29-ea3bf3505526" />
+
 •	show ip route on R1 and R2<br>
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/a48b7e2b-9245-43af-9f8f-d6dfa551e7e7" />
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+<img width="843" height="875" alt="image" src="https://github.com/user-attachments/assets/a0feb874-4aa7-4077-9bed-58eca2b288fa" />
+
 •	Interface up messages after no shutdown on each link <br>
+<img width="1733" height="378" alt="image" src="https://github.com/user-attachments/assets/eb714df0-a1fb-449a-93f3-4ac88d9a1e5a" />
+
 ________________________________________<br>
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
